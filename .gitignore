@@ -1,0 +1,79 @@
+# Project specific
+Project Traffic Collission Analysis/datasets/sample_collisions.csv
+Project Traffic Collission Analysis/datasets/sample_parties.csv
+Project Traffic Collission Analysis/datasets/sample_victims.csv
+
+
+# Python cache / build
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+*.log
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE / Editor stuff
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Docker
+*.pid
+*.seed
+*.bak
+*.tmp
+*.orig
+*.tar
+*.gz
+
+# Local dev configs
+.env
+*.sqlite3
+
+# AWS / Cloud
+.aws/
+*.pem
+
+# Node (if using frontend in repo)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Ignore datasets
+#datasets/*
+#data/raw/*
+#data/processed/*
+models/*
+logs/*
+*.zip
+*.tar.gz
+*.db
+*.log
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.tiff
+*.bmp

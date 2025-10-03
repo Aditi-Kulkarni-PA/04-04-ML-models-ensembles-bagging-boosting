@@ -1,0 +1,9 @@
+local:
+  raw_data: "data/raw/"
+  processed_data: "data/processed/"
+  models: "models/"
+
+aws:
+  raw_data: "s3://ml-data-masters/04-ML-Models/data/raw/"
+  processed_data: "s3://ml-data-masters/04-ML-Models/data/processed/"
+  models: "s3://ml-data-masters/04-ML-Models/models/"
